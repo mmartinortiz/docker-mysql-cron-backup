@@ -1,5 +1,4 @@
-FROM alpine:3.7
-LABEL maintainer "Fco. Javier Delgado del Hoyo <frandelhoyo@gmail.com>"
+FROM alpine:latest
 
 COPY ["run.sh", "backup.sh", "restore.sh", "/"]
 
